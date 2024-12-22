@@ -1,5 +1,5 @@
 {
-  "name": "bloggy-pro",
+  "name": "university_server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -16,14 +16,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "lint-staged": {
-  "src/**/*.{ts,js}": [
-    "eslint --fix",
-    "prettier --write"
-  ],
-  "*.json": [
-    "prettier --write"
-  ]
-},
+    "src/**/*.{ts,js}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.json": [
+      "prettier --write"
+    ]
+  },
   "dependencies": {
     "bcrypt": "^5.1.1",
     "cookie-parser": "^1.4.7",
